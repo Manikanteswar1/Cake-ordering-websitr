@@ -1,0 +1,141 @@
+.color{
+  background-color: rgb(159, 162, 162);
+}
+.nav{
+  height: 70px;
+  background-color: rgb(19, 33, 53);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu{
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+}
+.logo{
+  height: 40px;
+  width: 60px;
+  align-items: center;
+}
+.bod{
+  border: solid 1px transparent;
+}
+.bod:hover{
+  border: solid 2px rgb(210, 210, 216);
+}
+
+
+.add1{
+  color: aliceblue;
+  display: flex;
+  text-align: end;
+}
+
+.search{
+  display: flex;
+  width: 550px;
+  height: 40px;
+  justify-content: space-evenly;
+  border: 1px;
+}
+.search:hover{
+  border: solid 3px rgb(232, 215, 57);
+  
+}
+.sel{
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.searchbar{
+  width: 100%;
+  border: none;
+}
+.searchicon{
+  background-color:rgb(224, 203, 99);
+  color: rgb(2, 2, 2);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  
+}
+.account{
+  color: aliceblue;
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+}
+.orders{
+  display: flex;
+  text-align: center;
+  color: aliceblue;
+}
+.mcart i{
+  font-size: 30px;
+}
+.mcart{
+  color: aliceblue;
+  font-size: 1rem;
+  
+}
+.img{
+    height: 50vh;
+    width: 100%;
+  text-align: center;
+}
+button{
+    width: 150px; 
+  height: 50px; 
+  background-color:rgb(94, 128, 192);
+  color: black;
+  border: none; 
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.des{
+  text-align: center;
+  background-color:  rgb(229, 215, 60);
+  padding-bottom: 5px;
+}
+.cart{
+  width: 100px; 
+  height: 30px; 
+  background-color:rgb(60, 210, 95);
+  color: black;
+  border: none; 
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.buy{
+  width: 100px; 
+  height: 30px; 
+  background-color:rgb(218, 137, 78);
+  color: black;
+  border: none; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+.back{
+  text-align: center;
+}
+.box{
+  width: 23%;
+  height: auto;
+  margin-top: 20px;
+}
+.order{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
